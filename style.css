@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Iceland&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-image: url(imageneshome/ciudad\ oscura.png);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.encabezado{
+    height: auto;
+    padding: 40px 0px;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 250px;
+    height: 220px;
+}
+
+.bt button{
+    background-color:transparent;
+    border-color:transparent;
+}
+.iconsl{
+    padding: 10px 10px;
+    border-radius: 20px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, black, #908989);  
+    
+}
+
+h2{
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    font-family: 'Iceland', cursive;
+}
+
+.barra{
+    width: auto;
+    padding-left: 40px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 5px;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, black,#908989);   
+}
+
+.barra button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+    border-color:transparent;
+}
+
+.pc,.ps,.xb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nt{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.icont{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.busico img{
+    width: 100px;
+    height: 100px;
+}
+
+.pc img,.ps img,.xb img,.icont img{
+    width: 60px;
+    height: 60px;
+}
+
+
+#juegos{
+    background-color: #363636;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 110px;
+}
+
+
+h3{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-family: 'Iceland', cursive;
+} 
+
+
+h4{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-family: 'Iceland', cursive;
+}
+
+h5{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: 'Iceland', cursive;
+}
+
+.prt1,.prt2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 40px;
+    padding-bottom: 25px;
+    gap: 1070px;
+}
+
+.fila1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 35px;
+}
+
+.nombre1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nombre1,.nombre2{
+    background: linear-gradient(#FC5B00,#803306); 
+    padding-right: 12px;
+    padding-left: 12px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.fila2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 35px;
+}
+
+.game5{
+    text-align: center;
+}
+
+#promo{
+    background-color: #595959;
+    width: 100%;
+    height: 100%px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center; 
+}
+
+#end{
+    background-color: #232323;
+    width: 100%;
+    height: 100%px;
+}
+.part1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: 'Iceland', cursive;
+}
+
+h6{
+    font-size: 25px;
+    color: #787878; 
+    font-family: 'Iceland', cursive
+}
+
+.linea{
+    border-top: 5px solid rgb(245, 23, 23);
+    height: 2px;
+    width: 1450px;
+    margin-left: 50px;
+    margin-left: 50px;
+}
+
+.endin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cop{
+    font-family: 'Alata', sans-serif;
+}
+
+.red{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+}
